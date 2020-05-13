@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb:/aelam757@gmail.com:sk8roswell!@ds119020.mlab.com:19020/heroku_w3nzs78w", {
+mongoose.connect("mongodb:/aelam757@gmail.com:Sk8roswell!@ds119020.mlab.com:19020/heroku_w3nzs78w", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
