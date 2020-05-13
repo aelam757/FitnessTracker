@@ -17,6 +17,7 @@ mongoose.connect("mongodb:/aelam757@gmail.com:Sk8roswell!@ds119020.mlab.com:1902
 
 // routes
 app.use(require("./routes/api.js"));
+app.use(require("./routes/view.js"));
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
